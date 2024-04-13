@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Sports Arena</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        h2 {
+            color: #2196F3;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .red {
+            background-color: #F44336;
+            color: white;
+        }
+
+        .green {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .blue {
+            background-color: #2196F3;
+            color: white;
+        }
+
+        .images {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        img {
+            width: 200px;
+            height: 150px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .sports-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sports-list li {
+            margin-bottom: 10px;
+        }
+
+        .pricing {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .total {
+            font-weight: bold;
+        }
+
+        #receipt {
+            display: none;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        #arena-info {
+            margin-top: 20px;
+        }
+
+        #arena-info a {
+            color: #2196F3;
+            text-decoration: none;
+        }
+
+        #reviews {
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Your Sports Arena!</h1>
+
+        <div class="buttons">
+            <button class="red">Basketball</button>
+            <button class="green">Soccer</button>
+            <button class="blue">Tennis</button>
+            </div>
+
+        <div class="images">
+            <img src="images/basketball.jpg" alt="Basketball Court">
+            <img src="images/soccer.jpg" alt="Soccer Field">
+            <img src="images/tennis.jpg" alt="Tennis Court">
+            </div>
+
+        <h2>Available Sports</h2>
+
+        <ul class="sports-list">
+            <li>
+                Basketball:
+                <select id="basketball-time">
+                    <option value="morning">Morning (8am-12pm) - $20</option>
+                    <option value="afternoon">Afternoon (1pm
