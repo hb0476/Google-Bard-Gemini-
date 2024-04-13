@@ -1,1 +1,1 @@
-# Google-Bard-Gemini-
+Developed a website using Google Bard.
